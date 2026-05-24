@@ -1,3 +1,4 @@
 com\ms_agenda_profesional\agenda\AgendaApplication.class
 com\ms_agenda_profesional\agenda\controller\AgendaController.class
-com\ms_agenda_profesional\agenda\config\FhierConfig.class
+com\ms_agenda_profesional\dto\ConfirmacionReservaResponse.class
+com\ms_agenda_profesional\agenda\config\FhirConfig.class
