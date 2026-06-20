@@ -1,3 +1,13 @@
 spring:
   application:
     name: agenda
+  cloud:
+    compatibility-verifier:
+      enabled: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE:http://ms-service-discovery:8761/eureka/}
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
